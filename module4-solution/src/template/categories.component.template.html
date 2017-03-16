@@ -1,0 +1,6 @@
+<span class="back-home label label-info" ui-sref="home">Back to Home</span>
+<h2>Categories List</h2>
+
+<ul class="cate-list list-group">
+    <li class="list-group-item" ui-sref="items({id:item.short_name , name:item.name})" ng-repeat="item in $ctrl.myCategories">{{item.name}}</li>
+</ul>
