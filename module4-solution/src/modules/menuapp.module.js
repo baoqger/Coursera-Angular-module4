@@ -1,4 +1,4 @@
 (function(){
-    angular.module("MenuApp",['ui.router','data']);
+    angular.module("MenuApp",['ui.router','data','Spinner']);
     
 })();
